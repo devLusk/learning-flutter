@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String appTitle = "Flutter layout demo";
-    Color scaffoldColor = Colors.blueGrey[50]!; // Um cinza-azulado claro
+    Color scaffoldColor = Colors.blueGrey[50]!;
     Color containerColor = Colors.white;
     Color appBarColor = Colors.indigo[700]!;
 
@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: scaffoldColor,
         body: Center(
           child: Container(
-            height: 300,
             color: containerColor,
             padding: EdgeInsets.all(16),
             child: Column(
